@@ -1,2 +1,54 @@
-# Animation_Endless
-动画集合
+##  Android中的动画
+### 一、Transition 过度动画
+##### 1. Slide 滑动动画
+ 追踪目标视图在场景的开始和结束时的变化，
+ 以及移动视图从场景的一个边缘进出的变化。
+ 其可见性由view的setVisibility(int)的情况
+ 以及其父容器是否在当前视图层级中共同决定。
+##### 1.1 自有属性
+**slideEdge** 表示其实滑动的侧边位置 
+- RIGHT/END：右侧
+- LEFT/START：左侧
+- BOTTOM：底部
+- TOP：顶部
+
+##### 1.2 继承属性
+**Visibility** 中的属性
+ 
+ **transitionVisibilityMode** 表示所支持出现或者消失的视图变化之一
+
+- MODE_IN：只支持出现视图
+- MODE_OUT：只支持消失视图
+
+**Transition** 中的属性
+
+**duration** 表示这次变换所需要的时间戳。
+
+**interpolator** 表示这次变化中在动画中引入使用插入器。
+
+**startDelay** 表示这次变化之前延迟的毫秒数。
+
+##### 2.Fade 逐渐消失或者显示动画
+
+与1.2中属性使用基本一致
+
+##### 3.Explode 下方插入
+
+与1.2中属性使用基本一致
+
+##### 4.Activity中的使用
+
+Activity中的转换动画分为2类
+
+
+> 发出Intent跳转的Activity A：支持 **setExitTransition**
+> 该Activity退出场景的动画；**setReenterTransition** 再次进入该场景的动画；
+
+  
+> Intent调转到的Activity B：支持 **setEnterTransition** 进入场景动画；
+> **setReturnTransition**退出场景动画；
+
+在A发出Intent时，不加入Bundle动画不能生效
+
+`startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle());`
+
