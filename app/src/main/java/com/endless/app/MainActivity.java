@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.endless.app.transition.TransitionActivity;
+import com.endless.app.viewanimation.ViewAnimationActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,5 +22,13 @@ public class MainActivity extends AppCompatActivity {
      */
     public void onJumpActivityAnim(View view) {
         startActivity(new Intent(MainActivity.this, TransitionActivity.class));
+    }
+
+    /**
+     * 跳转View Animation
+     * @param view
+     */
+    public void onJumpViewAnimationAnim(View view) {
+        startActivity(new Intent(MainActivity.this, ViewAnimationActivity.class));
     }
 }
