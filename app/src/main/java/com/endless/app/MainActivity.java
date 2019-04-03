@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.endless.app.drawableanim.DrawableAnimActivity;
+import com.endless.app.propertyanim.PropertyAnimationActivity;
 import com.endless.app.transition.TransitionActivity;
 import com.endless.app.viewanimation.ViewAnimationActivity;
 
@@ -30,5 +32,17 @@ public class MainActivity extends AppCompatActivity {
      */
     public void onJumpViewAnimationAnim(View view) {
         startActivity(new Intent(MainActivity.this, ViewAnimationActivity.class));
+    }
+
+    /**
+     * DrawableAnimation 帧动画
+     * @param view
+     */
+    public void onJumpDrawableAnimation(View view) {
+        startActivity(new Intent(MainActivity.this, DrawableAnimActivity.class));
+    }
+
+    public void onJumpPropertyAnimation(View view) {
+        startActivity(new Intent(MainActivity.this, PropertyAnimationActivity.class));
     }
 }

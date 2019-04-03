@@ -23,6 +23,9 @@
         <activity android:name=".viewanimation.ViewAnimationActivity"/>
         <activity android:name=".viewanimation.CommonViewActivity"/>
         <activity android:name=".viewanimation.PopupWindowViewAnimationActivity"/>
+        <activity android:name=".viewanimation.RecyclerViewActivity"/>
+        <activity android:name=".drawableanim.DrawableAnimActivity"/>
+        <activity android:name=".propertyanim.PropertyAnimationActivity"/>
     </application>
 
 </manifest>

@@ -63,3 +63,26 @@ Activity中的转换动画分为2类
 ##### 4.ScaleAnimation 缩放动画
 
 ##### 5.AnimationSet 组合动画
+
+##### 6.popupWindow 的动画
+
+设置style 中windowEnterAnimation 与 windowExitAnimation
+
+##### 7.RecyclerView 的动画
+
+设置 LayoutAnimation 的动画
+> TranslateAnimation动画在view本身 向上即为 - 向下即为 + 
+
+### 三、Drawable Animation 帧动画
+
+1. xml 中设置 animation-list 
+2. 实例化 AnimationDrawable 通过addFrame添加帧
+
+### 四、PropertyAnimation 属性动画
+
+继承关系 从父类到子类 都可以实现同样的效果
+> -- android.animation.Animator 
+
+> -- android.animation.ValueAnimator 以数值驱动
+
+> -- android.animation.ObjectAnimator 以对象驱动

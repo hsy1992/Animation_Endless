@@ -25,4 +25,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
+    <android.support.v7.widget.AppCompatButton
+        android:onClick="onJumpDrawableAnimation"
+        android:background="@drawable/do_btn_bg"
+        android:text="DrawableAnimation动画"
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:onClick="onJumpPropertyAnimation"
+        android:background="@drawable/do_btn_bg"
+        android:text="PropertyAnimation动画"
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
 </LinearLayout>

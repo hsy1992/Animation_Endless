@@ -38,7 +38,8 @@ public class ViewAnimationActivity extends AppCompatActivity {
     }
 
     public void onRecycleViewViewAnimation(View view) {
-
+        startActivity(new Intent(ViewAnimationActivity.this, RecyclerViewActivity.class));
+        setTransition();
     }
 
 
