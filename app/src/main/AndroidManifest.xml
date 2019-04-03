@@ -21,6 +21,8 @@
         <activity android:name=".transition.TestA"/>
 
         <activity android:name=".viewanimation.ViewAnimationActivity"/>
+        <activity android:name=".viewanimation.CommonViewActivity"/>
+        <activity android:name=".viewanimation.PopupWindowViewAnimationActivity"/>
     </application>
 
 </manifest>

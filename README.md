@@ -52,3 +52,14 @@ Activity中的转换动画分为2类
 
 `startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle());`
 
+### 二、Animation view
+
+##### 1.AlphaAnimation 透明度动画
+
+##### 2.RotateAnimation 旋转动画
+
+##### 3.TranslateAnimation 位移动画
+
+##### 4.ScaleAnimation 缩放动画
+
+##### 5.AnimationSet 组合动画
