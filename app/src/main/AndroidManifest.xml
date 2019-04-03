@@ -26,6 +26,7 @@
         <activity android:name=".viewanimation.RecyclerViewActivity"/>
         <activity android:name=".drawableanim.DrawableAnimActivity"/>
         <activity android:name=".propertyanim.PropertyAnimationActivity"/>
+        <activity android:name=".touchanim.TouchAnimationActivity"/>
     </application>
 
 </manifest>
