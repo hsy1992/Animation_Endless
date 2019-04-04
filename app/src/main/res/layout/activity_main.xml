@@ -13,7 +13,7 @@
         android:onClick="onJumpActivityAnim"
         android:background="@drawable/do_btn_bg"
         android:text="页面跳转动画"
-        android:layout_margin="15dp"
+        android:layout_margin="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
@@ -21,7 +21,7 @@
         android:onClick="onJumpViewAnimationAnim"
         android:background="@drawable/do_btn_bg"
         android:text="ViewAnimation动画"
-        android:layout_margin="15dp"
+        android:layout_margin="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
@@ -29,7 +29,7 @@
         android:onClick="onJumpDrawableAnimation"
         android:background="@drawable/do_btn_bg"
         android:text="DrawableAnimation动画"
-        android:layout_margin="15dp"
+        android:layout_margin="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
@@ -37,8 +37,33 @@
         android:onClick="onJumpPropertyAnimation"
         android:background="@drawable/do_btn_bg"
         android:text="PropertyAnimation动画"
-        android:layout_margin="15dp"
+        android:layout_margin="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:onClick="onJumpTouchAnimation"
+        android:background="@drawable/do_btn_bg"
+        android:text="TouchAnimation动画"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:onClick="onJumpRevealAnimation"
+        android:background="@drawable/do_btn_bg"
+        android:text="RevealAnimation动画"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:onClick="onJumpTransitionAnimationActivityAnimation"
+        android:background="@drawable/do_btn_bg"
+        android:text="TransitionAnimationActivity动画"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
 
 </LinearLayout>

@@ -13,4 +13,9 @@
         <item name="android:windowExitAnimation">@anim/animation_popu_exit</item>
     </style>
 
+    <style name="AutoButton">
+        <item name="buttonStyle">@style/Widget.AppCompat.Button</item>
+        <item name="colorButtonNormal">?attr/colorAccent</item>
+    </style>
+
 </resources>

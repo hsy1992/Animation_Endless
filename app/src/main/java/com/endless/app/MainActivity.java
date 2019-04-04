@@ -7,7 +7,10 @@ import android.view.View;
 
 import com.endless.app.drawableanim.DrawableAnimActivity;
 import com.endless.app.propertyanim.PropertyAnimationActivity;
+import com.endless.app.revealanimation.RevealAnimationActivity;
+import com.endless.app.touchanim.TouchAnimationActivity;
 import com.endless.app.transition.TransitionActivity;
+import com.endless.app.transition.TransitionAnimationActivity;
 import com.endless.app.viewanimation.ViewAnimationActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -44,5 +47,17 @@ public class MainActivity extends AppCompatActivity {
 
     public void onJumpPropertyAnimation(View view) {
         startActivity(new Intent(MainActivity.this, PropertyAnimationActivity.class));
+    }
+
+    public void onJumpTouchAnimation(View view) {
+        startActivity(new Intent(MainActivity.this, TouchAnimationActivity.class));
+    }
+
+    public void onJumpRevealAnimation(View view) {
+        startActivity(new Intent(MainActivity.this, RevealAnimationActivity.class));
+    }
+
+    public void onJumpTransitionAnimationActivityAnimation(View view) {
+        startActivity(new Intent(MainActivity.this, TransitionAnimationActivity.class));
     }
 }

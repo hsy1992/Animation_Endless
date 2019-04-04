@@ -27,6 +27,10 @@
         <activity android:name=".drawableanim.DrawableAnimActivity"/>
         <activity android:name=".propertyanim.PropertyAnimationActivity"/>
         <activity android:name=".touchanim.TouchAnimationActivity"/>
+        <activity android:name=".revealanimation.RevealAnimationActivity"/>
+        <activity android:name=".revealanimation.RevealEffectActivity"/>
+        <activity android:name=".transition.TransitionAnimationActivity"/>
+        <activity android:name=".transition.ShareElementsActivity"/>
     </application>
 
 </manifest>
