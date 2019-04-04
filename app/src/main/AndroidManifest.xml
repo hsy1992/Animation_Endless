@@ -31,6 +31,7 @@
         <activity android:name=".revealanimation.RevealEffectActivity"/>
         <activity android:name=".transition.TransitionAnimationActivity"/>
         <activity android:name=".transition.ShareElementsActivity"/>
+        <activity android:name=".stateanimation.StateAnimationActivity"/>
     </application>
 
 </manifest>

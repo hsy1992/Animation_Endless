@@ -1,6 +1,7 @@
 package com.endless.app;
 
 import android.content.Intent;
+import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,6 +9,7 @@ import android.view.View;
 import com.endless.app.drawableanim.DrawableAnimActivity;
 import com.endless.app.propertyanim.PropertyAnimationActivity;
 import com.endless.app.revealanimation.RevealAnimationActivity;
+import com.endless.app.stateanimation.StateAnimationActivity;
 import com.endless.app.touchanim.TouchAnimationActivity;
 import com.endless.app.transition.TransitionActivity;
 import com.endless.app.transition.TransitionAnimationActivity;
@@ -58,6 +60,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onJumpTransitionAnimationActivityAnimation(View view) {
-        startActivity(new Intent(MainActivity.this, TransitionAnimationActivity.class));
+        ActivityOptionsCompat activityOptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation((MainActivity.this), null);
+        startActivity(new Intent(MainActivity.this, TransitionAnimationActivity.class), activityOptionsCompat.toBundle());
+    }
+
+    public void onJumpStateAnimationActivityAnimation(View view) {
+        startActivity(new Intent(MainActivity.this, StateAnimationActivity.class));
     }
 }

@@ -35,7 +35,6 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:divider="@drawable/divider_linearlayout"
                     android:orientation="horizontal"
                     android:paddingBottom="15dp"
                     android:id="@+id/viewgroup_transition"

@@ -52,6 +52,7 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
                     Pair<View, String> pair1 = new Pair<View, String>(holder.mImageView, mContext.getString(R.string.share_element_imageview));
                     Pair<View, String> pair2 = new Pair<View, String>(holder.mHeader, mContext.getString(R.string.share_element_header));
                     Pair<View, String> pair3 = new Pair<View, String>(holder.mTextView, mContext.getString(R.string.share_element_tv_info));
+                    //设置转场
                     activityOptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(((Activity) mContext), pair1, pair2, pair3);
                 } else {
                     final Pair<View, String>[] pairs = TransitionHelper.createSafeTransitionParticipants(
