@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Animation_Endless.iml" filepath="$PROJECT_DIR$/Animation_Endless.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animationlib/animationlib.iml" filepath="$PROJECT_DIR$/animationlib/animationlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
